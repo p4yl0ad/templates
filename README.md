@@ -1,2 +1,2 @@
 # templates
-Collection if template scripts
+Collection of template scripts
