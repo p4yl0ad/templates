@@ -18,7 +18,7 @@ msf-pattern_create -l 1024 #200+ where your crash happened
 !mona bytearray -cpb \x00\x0a 
 !mona compare -a esp -f c:\mona\brainpan\bytearray.bin 
 
-6) codeexec.py # Inject some int3's to check if you have "Code execition" int3 = breakpoints
+6) codeexec.py # Inject some int3's to check if you have "Code execution" int3 = breakpoints
 #find jmp esp !mona jmp -r ESP 
 
 7) getfukt.py # self explanitory 
